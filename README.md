@@ -68,6 +68,8 @@ sudo dpkg -i cuda-repo-ubuntu2404-13-0-local_13.0.1-580.82.07-1_amd64.deb
 
 <!-- ======================================================= -->
 
+<!-- BELOW COMMAND HAS NOT BEEN TRIED YET -->
+sudo apt-get install -y nvidia-open
 
 <!-- ======================================================= -->
 
