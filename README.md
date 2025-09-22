@@ -73,6 +73,13 @@ sudo apt-get install -y nvidia-open
 
 <!-- ======================================================= -->
 
+export PATH=/usr/local/cuda/bin/:$PATH
+
+<!-- cuda-memcheck  is replaced by compute-sanitizer -->
+cuda-memcheck 
+nvcc
+
+compute-sanitizer --tool memcheck [sanitizer_options] app_name [app_options]
 
 <!-- ======================================================= -->
 
