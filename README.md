@@ -1,6 +1,9 @@
 
 <!-- ======================================================= -->
 
+- Latest Cuda lib can work with older NVIDIA graphic card, though some capabilities are missing (see wiki Cuda page for capabilities matrix).
+
+
 nvidia-smi
 
 21:53 $ nvidia-smi 
